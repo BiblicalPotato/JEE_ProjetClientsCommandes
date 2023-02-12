@@ -1,0 +1,10 @@
+.flex-container {
+	display : flex;
+	flex-direction : column;
+}
+
+.champ {
+	display : flex;
+	justify-content : space-between;
+	
+}
