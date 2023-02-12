@@ -13,7 +13,7 @@ rel="stylesheet">
 	<fieldset>
 		<legend>Informations client</legend>
 
-		<form action="" method="post" class="flex-container">
+		<form action="AjoutClient" method="post">
 <div class="flex-container">
 			<div class="champ">
 				Nom<input type="text" name="nom"></input>
@@ -37,7 +37,7 @@ rel="stylesheet">
 	</fieldset>
 	<fieldset>
 		<legend>Informations commande</legend>
-		<form action="" method="post">
+		<form action="AjoutCommande" method="post">
 <div class="flex-container">
 			<div class="champ">
 				Date <input type="date" name="date"></input>

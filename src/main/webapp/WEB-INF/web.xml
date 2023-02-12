@@ -19,4 +19,24 @@
     <welcome-file>default.htm</welcome-file>
     <welcome-file>default.jsp</welcome-file>
   </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>AjoutClient</display-name>
+    <servlet-name>AjoutClient</servlet-name>
+    <servlet-class>controler.AjoutClient</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AjoutClient</servlet-name>
+    <url-pattern>/AjoutClient</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>AjoutCommande</display-name>
+    <servlet-name>AjoutCommande</servlet-name>
+    <servlet-class>controler.AjoutCommande</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AjoutCommande</servlet-name>
+    <url-pattern>/AjoutCommande</url-pattern>
+  </servlet-mapping>
 </web-app>
